@@ -2,7 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css'
-import { lusintana } from './ui/fonts';
+import { lusitana } from './ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {
@@ -48,7 +48,7 @@ export default function Page() {
           />
         </div>
         <div className={styles.shape} />
-        <p className={lusintana.className}>Testingggg</p>
+        <p className={lusitana.className}>Testingggg</p>
       </div>
     </main>
   );
